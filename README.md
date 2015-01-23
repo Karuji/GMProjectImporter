@@ -21,4 +21,3 @@ Once you give it those two files it will go though them merging them, and then i
 ####What's new in GMProjectImporter?
 GMProjectImporter is new and still in **Alpha**. Everything is new and freshly coded. I started coding it when Game Maker wouldn't let me import one project into another. I'm pretty sure other developers must have similar kind desires to work with GM where you can prototype and import, and hoped that it would be useful to other developers if I shared it.
 
-
