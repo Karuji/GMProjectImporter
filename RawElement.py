@@ -59,7 +59,7 @@ class SndElement(RawElement):
 	def __init__(self, xmlFile):
 		super().__init__(xmlFile)
 		for raw in self.root.iter('data'):
-			self.rawFiles.append('audio'+os.sep+raw.text)
+			self.rawFiles.append(os.sep+'audio'+os.sep+raw.text)
 
 class FntElement(RawElement):
 	def __init__(self, xmlFile):

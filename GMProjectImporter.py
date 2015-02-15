@@ -143,7 +143,8 @@ For your own sanity please use version control or make a backup of your project\
 					if elem.tag in self.hasrawfile:
 						raw = RawFile(elem.tag, self.sourcedir + elem.cleantext)
 						rawfiledir = elem.tag.replace("\'","")
-						rawfiledir += "s" + os.sep
+						if rawfiledir != "sound":
+							rawfiledir += "s" + os.sep
 						raw.copyto(self.targetdir+rawfiledir)
 				else:
 					print(elem.tag,elem.cleantext)
