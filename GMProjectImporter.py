@@ -198,7 +198,7 @@ For your own sanity please use version control or make a backup of your project\
 			line = line.expandtabs(2)
 			if line.rstrip():
 				gmxfile.write(line)
-		gmxfile.close
+		gmxfile.close()
 
 def main():
 	importer = Importer()
